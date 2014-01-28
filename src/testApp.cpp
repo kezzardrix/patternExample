@@ -7,7 +7,7 @@ void testApp::setup(){
     ofSetFrameRate(60);
     
     left.assign(bufferSize, 0.0);
-	soundStream.setup(this, 0, 1, 44100, bufferSize, 4);
+    soundStream.setup(this, 0, 1, 44100, bufferSize, 4);
     
     for(int i = 0; i < objectNum; i++){
         Primitive drawObject;
